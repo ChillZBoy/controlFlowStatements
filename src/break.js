@@ -5,4 +5,9 @@ for (let i = 0; i < 10; i++) {
 
 for (let i = 0; i < numbers.length; i++) {
     console.log(numbers[i]);
+    if (numbers[i] > 50) {
+        console.log('The number is greater than 50');
+        break;
+    }
+
 }
